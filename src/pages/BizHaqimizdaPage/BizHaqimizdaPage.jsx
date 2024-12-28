@@ -1,6 +1,6 @@
 import Navbar from "../../components/Navbar/Navbar"
 import BizHaqimizda from "../../components/Biz Haqimizda/BizHaqimizda"
-import Footer from "../../components/footer/Footer"
+import Footer from "../../components/Footer/Footer"
 
 
 
