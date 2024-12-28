@@ -17,7 +17,7 @@ function BizHaqimizda() {
         },
         {
             name: "Avtomobillar",
-            reyting: 0.5,
+            reyting: 5,
         },
         {
             name: "O'qituvchilar",
