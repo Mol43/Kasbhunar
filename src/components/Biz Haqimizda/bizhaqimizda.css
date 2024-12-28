@@ -1,0 +1,189 @@
+aside {
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    background: #fff;
+    margin-top: 60px;
+}
+
+aside>h1 {
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 48.02px;
+    color: #030522;
+    padding: 40px 0;
+}
+
+.aside-link {
+    max-width: max-content;
+    padding: 20px 0 0 20px;
+}
+
+.header {
+    width: 95%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.header-text {
+    width: 60%;
+    text-align: left;
+    margin: 15px 0;
+}
+
+.header-text>h1 {
+    text-align: left;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32.79px;
+    color: #030522;
+}
+
+.header-text>h2 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 30.45px;
+    color: #030522;
+    margin: 30px 0;
+}
+
+.header-text>p {
+    width: 549px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.74px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.header-text>.titl {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #27C955;
+}
+
+.titl>p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22.25px;
+    color: #030522;
+    margin: 10px 0;
+}
+
+.header-img {
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 17px;
+}
+
+.header-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.reyting {
+    margin-top: 60px;
+    width: 100%;
+    height: 160px;
+    background: #030522;
+}
+
+.tit {
+    display: block;
+}
+
+.tit h1 {
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 76.77px;
+    color: #FFFFFF;
+}
+
+.tit h2 {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 38.47px;
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 768px) {
+
+    .header {
+        height: auto;
+    }
+    .header-text > h1 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 22px;
+    }
+    .header-text > h2 {
+        font-size: 18px;
+        line-height: 20px;
+        margin: 15px 0;
+    }
+
+    .header-text>p {
+        width: auto;
+        font-size: 13px;
+        line-height: 14px;
+    }
+
+    .header-text>.titl {
+        gap: 10px;
+    }
+
+    .titl>p {
+        font-size: 15px;
+        line-height: 16px;
+    }
+
+    .reyting {
+        height: 100px;
+        margin-bottom: 60px;
+    }
+    
+    .tit h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    
+    .tit h2 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    aside {
+        height: auto;
+    }
+    aside .header {
+        flex-direction: column-reverse;
+    }
+
+    aside .header-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-text > h1 {
+        text-align: center;
+    }
+
+    .header-text>.titl {
+        justify-content: center;
+    }
+
+    .header-img {
+        width: 100%;
+        height: auto;
+    }
+    .reyting {
+        margin-bottom: 40px;
+    }
+}

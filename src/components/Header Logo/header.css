@@ -1,0 +1,54 @@
+.header-logo header {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(0deg, #00103FAB, #00103FAB), url('../../../public/image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 50px;
+}
+.header-logo .title-logo {
+    width: 620px;
+}
+
+.header-logo .title-logo h1 {
+    font-size: 59px;
+    font-weight: 600;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+.header-logo .title-logo h3 {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 32.9px;
+    color: #FFFFFF;
+    margin: 25px 0;
+}
+
+.header-logo .title-logo button {
+    width: 160px;
+    height: 60px;
+    border-radius: 15px;
+    background: #27C955;
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 28.22px;
+    color: #FFFFFF;
+}
+
+.header-logo .title-logo button:hover{
+    background: #030522;
+}
+
+
+@media (max-width: 576px) {
+    .header-logo .title-logo h1 {
+        font-size: 40px;
+        line-height: 41px;
+    }
+    .header-logo .title-logo h3 {
+        font-size: 25px;
+    }
+}

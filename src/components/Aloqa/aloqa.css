@@ -1,0 +1,171 @@
+section {
+    width: 100%;
+}
+
+section>h1 {
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 48.02px;
+    color: #030522;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.xarita {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.aloqa-link {
+    max-width: max-content;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    color: #051633;
+    padding-top: 20px;
+}
+
+.forms {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.info {
+    width: 35%;
+}
+
+.info-title {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    background: rgb(5, 153, 5);
+    border-radius: 50%;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+.info-title h3 {
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 30.68px;
+    color: #030522;
+}
+
+.info-title p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26.3px;
+    color: var(--colors-base-default-600, #52525B)
+}
+
+form {
+    width: 65%;
+    height: 100%;
+}
+
+form input {
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    background: transparent;
+    color: #6d6b6b;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+form textarea {
+    width: 100%;
+    height: 190px;
+    outline: none;
+    border: 1px solid #D9D9D9;
+    border-radius: 15px;
+    color: #6d6b6b;
+    background: transparent;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+}
+
+form button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    background: rgb(5, 153, 5);
+    color: #FFFFFF;
+    border-radius: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+    .forms {
+        width: 95%;
+        height: auto;
+    }
+
+    .info {
+        width: 40%;
+    }
+
+    .info-title {
+        gap: 18px;
+    }
+
+    .info-title p {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 600;
+    }
+
+    form {
+        width: 60%;
+    }
+}
+
+@media (max-width: 576px) {
+    .forms {
+        display: block;
+        width: 90%;
+    }
+
+    .info {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+
+    .info-title {
+        display: block;
+        text-align: center;
+        flex: 1;
+    }
+
+    .icon {
+        margin: 0 auto;
+    }
+
+    .info-title h3 {
+        font-size: 18px;
+    }
+
+    .info-title p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    form {
+        width: 100%;
+    }
+}

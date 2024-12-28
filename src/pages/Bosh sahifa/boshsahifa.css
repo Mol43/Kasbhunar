@@ -1,0 +1,282 @@
+.bosh nav {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 100px 5px;
+}
+
+.bosh .nav-menu a {
+    color: #030522;
+}
+
+.bosh .nav-menu a:hover {
+    color: #27C955;
+}
+
+.bosh .bar {
+    color: #030522;
+}
+
+.bosh .bar i:hover {
+    color: #D9D9D9;
+}
+
+
+.bosh aside>h1 {
+    display: none;
+}
+
+.bosh .aside-link {
+    display: none;
+}
+
+.bosh .boshcard {
+    width: 30%;
+    height: 99%;
+    box-shadow: 1px 1px 6.8px 0px #00000040;
+    background: transparent;
+    border-radius: 22px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 20px;
+    position: relative;
+}
+
+.bosh .boshcard:hover {
+    background-color: #27C955;
+}
+
+.bosh .boshcard:hover h1 {
+    color: #FFFFFF;
+}
+
+.bosh .boshcard:hover p {
+    color: #FFFFFF;
+}
+
+.bosh .boshcard:hover .bosh-btn {
+    background: #030522;
+}
+
+.bosh .roundet {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background: #030522;
+    margin: 20px auto;
+    font-size: 40px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bosh .boshcard h1 {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 37.67px;
+    color: #030522;
+}
+
+.bosh .boshcard p {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 23.1px;
+    color: #030522;
+    margin: 25px 0;
+}
+
+.bosh .bosh-btn {
+    background: #27C955;
+    border-radius: 8px;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 15.73px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bosh .sarlavha {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 55.52px;
+    color: #030522;
+    margin: 40px 25px 20px 55px;
+}
+
+.bosh .boshcard .img {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bosh .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.bosh .img h1 {
+    width: 165px;
+    height: 45px;
+    border-top-right-radius: 15px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #FFFFFF;
+    background: #030522;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+.bosh .text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.bosh .boshcard:hover h2 {
+    color: #FFFFFF;
+}
+
+.bosh .text h2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32.14px;
+    color: #030522;
+}
+
+.bosh .text h4 {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24.84px;
+    color: #030522;
+    margin: 20px 0;
+}
+
+.bosh .boshcard:hover h4 {
+    color: #FFFFFF;
+}
+
+.bosh .other span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 15.73px;
+    color: #0000009E;
+}
+
+.bosh .text-foyda {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.bosh .text-foyda h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35.06px;
+    color: #030522;
+}
+
+.bosh .text-foyda p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26.3px;
+    color: #000000C9;
+}
+
+.bosh .img-foyda {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.bosh .img-foyda img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    aside {
+        height: auto;
+    }
+
+    .boshcards {
+        width: 96%;
+        overflow: scroll;
+        gap: 40px;
+    }
+
+    .boshcards::-webkit-scrollbar {
+        display: none;
+    }
+
+    .bosh .boshcard {
+        width: 50%;
+        min-width: 350px;
+    }
+
+    .bosh .sarlavha {
+        font-size: 28px;
+        margin-left: 35px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .bosh .nav-menu a {
+        color: #FFFFFF;
+    }
+
+    .bosh .nav-menu a:hover {
+        color: #030522;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .bosh .boshcards {
+        width: 96%;
+        height: 1400px;
+        overflow: unset;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .bosh .boshcard {
+        width: 99%;
+        height: 30%;
+        margin: 0 auto;
+        min-width: 300px;
+    }
+
+    .bosh .sarlavha {
+        font-size: 28px;
+        line-height: 30px;
+        margin: 0;
+        margin-left: 20px;
+    }
+
+
+}
