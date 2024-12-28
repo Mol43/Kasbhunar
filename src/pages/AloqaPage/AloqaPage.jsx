@@ -1,4 +1,4 @@
-import Footer from "../../components/footer/Footer"
+import Footer from "../../components/Footer/Footer"
 import Navbar from "../../components/Navbar/Navbar"
 import Aloqa from "../../components/Aloqa/Aloqa"
 
