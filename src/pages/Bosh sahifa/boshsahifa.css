@@ -5,6 +5,7 @@
 
 .bosh .nav-menu a {
     color: #030522;
+    transition: all .2s;
 }
 
 .bosh .nav-menu a:hover {
@@ -38,6 +39,7 @@
     box-sizing: border-box;
     padding: 0 20px;
     position: relative;
+    transition: all .2s;
 }
 
 .bosh .boshcard:hover {
