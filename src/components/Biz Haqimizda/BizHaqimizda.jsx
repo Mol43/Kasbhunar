@@ -34,7 +34,7 @@ function BizHaqimizda() {
             <h1>Biz haqimizda </h1>
             <div className="header flex justify-between items-center">
                 <div className="header-text">
-                    <h1>1-son Kasb-Hunar maktabida siz zamonasi, hududi vasohasining eng kuchlilaridan hunar organasiz</h1>
+                    <h1>Angor Tuman 1-Sonli Politexnikumida siz zamonaviy, hududi va sohasining eng kuchlilaridan hunar organasiz</h1>
                     <h2>Maktabimizda oziga hos nimalar mavjud?</h2>
                     <div className="titl">
                     <AiOutlineCheck /> <p>Avtomobillarni mustaqil boshqarish uchun avtodrom</p>
@@ -48,7 +48,7 @@ function BizHaqimizda() {
                     <p>Bundan tashqari galla(8 ga.) va paxta(7 ga.) maydonlari, jami 5182 ta badiiy va oquv adabiyotlarini ichiga olgan AKR Markazi, 50 orinli yotoqxona va 180 orinli ishlab chiqarish ustaxonalari mavjud.</p>
                 </div>
                 <div className="header-img">
-                    <img src="./tikuvchilik-1 1.png" alt="img" />
+                    <img src="/img/tikuvchilik-1 1.png" alt="img" />
                 </div>
             </div>
             <div className="reyting flex justify-evenly items-center">
