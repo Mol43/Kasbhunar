@@ -1,7 +1,7 @@
 .header-logo header {
     width: 100%;
     height: 700px;
-    background: linear-gradient(0deg, #00103FAB, #00103FAB), url('../.././public/image.png');
+    background: linear-gradient(0deg, #00103FAB, #00103FAB), url('/img/bg-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
