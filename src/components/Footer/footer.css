@@ -34,6 +34,11 @@
 .footer-light .footer-link {
     max-width: max-content;
     color: #27C955;
+    transition: all .3s;
+}
+
+.footer-light .footer-link a:hover {
+    color: #030522; 
 }
 
 .footer-light .malumot>h2 {

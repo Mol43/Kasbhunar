@@ -1,0 +1,22 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "title": "Mashxur kurslar",
+            "content": "Mashxur kurslarimiz",
+            "image": "https://example.com/image1.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Aloqa",
+            "content": "Mashxur kurslarimiz",
+            "image": "https://example.com/image2.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Biz haqimizda",
+            "content": "Mashxur kurslarimiz",
+            "image": "https://example.com/image3.jpg"
+        }
+    ]
+}
