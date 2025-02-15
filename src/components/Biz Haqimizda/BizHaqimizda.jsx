@@ -9,11 +9,11 @@ function BizHaqimizda() {
     const obj = [
         {
             name: "Talabalar",
-            reyting: 454,
+            reyting: 910,
         },
         {
             name: "Kasblar",
-            reyting: 7,
+            reyting: 11,
         },
         {
             name: "Avtomobillar",
@@ -21,7 +21,7 @@ function BizHaqimizda() {
         },
         {
             name: "O'qituvchilar",
-            reyting: 9,
+            reyting: 49,
         },
     ]
 
@@ -40,12 +40,12 @@ function BizHaqimizda() {
                     <AiOutlineCheck /> <p>Avtomobillarni mustaqil boshqarish uchun avtodrom</p>
                     </div>
                     <div className="titl">
-                    <AiOutlineCheck /> <p>Umumiy maydoni 15 ga. oquv tajriba amaliyot poligoni</p>
+                    <AiOutlineCheck /> <p>Umumiy maydoni 15 gk. oquv tajriba amaliyot poligoni</p>
                     </div>
                     <div className="titl">
-                    <AiOutlineCheck /> <p>Yer maydoni 6 ga. - asalarichilik hududi</p>
+                    <AiOutlineCheck /> <p>Yer maydoni 6.9 gk. - asalarichilik hududi</p>
                     </div>
-                    <p>Bundan tashqari galla(8 ga.) va paxta(7 ga.) maydonlari, jami 5182 ta badiiy va oquv adabiyotlarini ichiga olgan AKR Markazi, 50 orinli yotoqxona va 180 orinli ishlab chiqarish ustaxonalari mavjud.</p>
+                    <p>Bundan tashqari g'alla(8 gk.) va paxta(7 gk.) maydonlari, jami 5182 ta badiiy va oquv adabiyotlarini ichiga olgan AKR Markazi, 50 orinli yotoqxona va 180 orinli ishlab chiqarish ustaxonalari mavjud.</p>
                 </div>
                 <div className="header-img">
                     <img src="/img/tikuvchilik-1 1.png" alt="img" />

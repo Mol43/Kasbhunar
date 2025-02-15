@@ -10,7 +10,7 @@ function Header() {
 
     const obj = [
         {
-            img: './3ed65c588dab63b697649ceb5366772f 1.png',
+            img: '/img/3ed65c588dab63b697649ceb5366772f 1.png',
             heading: 'Avtomobilsozlik',
             paragraph: 'Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.',
             prosmotr: 77,
@@ -18,40 +18,40 @@ function Header() {
             date: '11.10.2024',
         },
         {
-            img: './3ed65c588dab63b697649ceb5366772f 1.png',
-            heading: 'Avtomobilsozlik',
+            img: '/img/kasb-tikuvchilik.png',
+            heading: 'Tikuvchilik',
             paragraph: 'Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.',
             prosmotr: 77,
             coments: 0,
             date: '11.10.2024',
         },
         {
-            img: './3ed65c588dab63b697649ceb5366772f 1.png',
-            heading: 'Avtomobilsozlik',
+            img: '/img/agrobiznes.png',
+            heading: 'Agrobiznes, marketing',
             paragraph: 'Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.',
             prosmotr: 77,
             coments: 0,
             date: '11.10.2024',
         },
         {
-            img: './3ed65c588dab63b697649ceb5366772f 1.png',
-            heading: 'Avtomobilsozlik',
+            img: '/img/mashinist.png',
+            heading: 'Traktor mashinist',
             paragraph: 'Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.',
             prosmotr: 77,
             coments: 0,
             date: '11.10.2024',
         },
         {
-            img: './3ed65c588dab63b697649ceb5366772f 1.png',
-            heading: 'Avtomobilsozlik',
+            img: '/img/axborot.png',
+            heading: 'Axborot texalogiya',
             paragraph: 'Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.',
             prosmotr: 77,
             coments: 0,
             date: '11.10.2024',
         },
         {
-            img: './3ed65c588dab63b697649ceb5366772f 1.png',
-            heading: 'Avtomobilsozlik',
+            img: '/img/dvigatel.png',
+            heading: 'Dvigatellarni ta’mirlash',
             paragraph: 'Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.',
             prosmotr: 77,
             coments: 0,
@@ -73,7 +73,7 @@ function Header() {
                         return (
                             <div className="category-card" key={i}>
                                 <div className="img">
-                                    <img src={item.img} alt="" />
+                                    <img className='rounded-t-xl object-cover' src={item.img} alt="" />
                                     <h1>{item.heading}</h1>
                                 </div>
                                 <div className="text">
