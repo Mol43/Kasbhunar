@@ -54,6 +54,7 @@
     border-radius: 8px;
     box-shadow: 1px 1px 6.5px 0px #00000040;
     border-radius: 19px;
+    overflow: hidden;
 }
 
 .header-kasb .category-card .img {
@@ -65,6 +66,7 @@
 .header-kasb .img img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .header-kasb .img h1 {

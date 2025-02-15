@@ -13,7 +13,7 @@ function Footer() {
     <div className="footer-dark">
       <footer className="flex justify-around items-center block-res">
         <div className="footer-logo">
-          <img src="./logo.png" alt="" />
+          <img src="/img/logo.png" alt="" className="hidden md:block" />
           <p>Sayt ma’lumotlaridan <br /> foydalanganda sayt manba sifatida <br /> ko’rsatilishi shart</p>
           <div className="footer-link flex justify-between items-center gap-4">
             <a href="#">

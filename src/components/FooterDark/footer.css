@@ -1,193 +1,195 @@
 .footer-dark footer {
-    margin-top: 60px;
-    width: 100%;
-    height: 260px;
-    background: #030522;
-    padding: 20px;
+  margin-top: 60px;
+  width: 100%;
+  height: 260px;
+  background: #030522;
+  padding: 20px;
 }
 
 .footer-dark footer p {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24.2px;
-    color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  color: #ffffff;
 }
 
-.footer-dark footer>div {
-    width: 20%;
-    height: 100%;
+.footer-dark footer > div {
+  width: 20%;
+  height: 100%;
 }
 
-.footer-dark .footer-logo>img {
-    width: 70px;
+.footer-dark .footer-logo > img {
+  width: 70px;
 }
 
 .footer-dark .footer-logo p {
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 21.78px;
-    color: #FFFFFF;
-    margin: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  color: #ffffff;
+  margin: 15px 0;
 }
 
 .footer-dark .footer-link {
-    max-width: max-content;
-    color: #FFFFFF;
+  max-width: max-content;
+  color: #ffffff;
+  transition: all .3s;
 }
 
-.footer-dark .malumot>h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 29.05px;
-    color: #FFFFFF;
-    margin-left: 40px;
+.footer-dark .footer-link a:hover {
+  color: #fbd45a;
 }
 
+.footer-dark .malumot > h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  color: #ffffff;
+  margin-left: 40px;
+}
 
 .footer-dark .title {
-    max-width: max-content;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    color: #FBD45A;
-    margin-bottom: 25px;
+  max-width: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  color: #fbd45a;
+  margin-bottom: 25px;
 }
 
 .footer-dark .murojat h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 29.05px;
-    color: #FFFFFF;
-    margin-left: 40px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.05px;
+  color: #ffffff;
+  margin-left: 40px;
 }
 
 .footer-dark .murojat .title {
-    align-items: start;
+  align-items: start;
 }
 
 .footer-dark .murojat .title p {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 @media (max-width: 768px) {
-    .footer-dark footer>div {
-        width: 32%;
-    }
+  .footer-dark footer > div {
+    width: 32%;
+  }
 
-    .footer-dark .footer-logo h1 {
-        width: 180px;
-        height: 50px;
-        font-size: 35px;
-        line-height: 50px;
-    }
+  .footer-dark .footer-logo h1 {
+    width: 180px;
+    height: 50px;
+    font-size: 35px;
+    line-height: 50px;
+  }
 
-    .footer-dark .footer-logo p {
-        font-size: 15px;
-    }
+  .footer-dark .footer-logo p {
+    font-size: 15px;
+  }
 
-    .footer-dark .footer-link {
-        font-size: 30px;
-    }
+  .footer-dark .footer-link {
+    font-size: 30px;
+  }
 
-    .footer-dark footer p {
-        font-size: 18px;
-        line-height: 20px;
-    }
+  .footer-dark footer p {
+    font-size: 18px;
+    line-height: 20px;
+  }
 
-    .footer-dark .title {
-        font-size: 25px;
-    }
+  .footer-dark .title {
+    font-size: 25px;
+  }
 }
 
 @media (max-width: 576px) {
-    .footer-dark .footer-logo h1 {
-        width: 140px;
-        height: 40px;
-        font-size: 27px;
-        line-height: 40px;
-    }
+  .footer-dark .footer-logo h1 {
+    width: 140px;
+    height: 40px;
+    font-size: 27px;
+    line-height: 40px;
+  }
 
-    .footer-dark .footer-logo p {
-        font-size: 11px;
-        line-height: 15px;
-        margin: 7px 0;
-        margin-left: 5px;
-    }
+  .footer-dark .footer-logo p {
+    font-size: 11px;
+    line-height: 15px;
+    margin: 7px 0;
+    margin-left: 5px;
+  }
 
-    .footer-dark .footer-link {
-        font-size: 17px;
-    }
+  .footer-dark .footer-link {
+    font-size: 17px;
+  }
 
-    .footer-dark footer p {
-        font-size: 11px;
-        line-height: 14px;
-    }
+  .footer-dark footer p {
+    font-size: 11px;
+    line-height: 14px;
+  }
 
-    .footer-dark .title {
-        gap: 10px;
-        margin-bottom: 5px;
-        font-size: 17px;
-    }
+  .footer-dark .title {
+    gap: 10px;
+    margin-bottom: 5px;
+    font-size: 17px;
+  }
 
-    .footer-dark .malumot>h2,
-    .footer-dark .murojat>h2 {
-        font-size: 16px;
-        line-height: 19.05px;
-        margin: 10px 0 5px 30px;
-    }
+  .footer-dark .malumot > h2,
+  .footer-dark .murojat > h2 {
+    font-size: 16px;
+    line-height: 19.05px;
+    margin: 10px 0 5px 30px;
+  }
 
-    .footer-dark footer {
-        padding: 10px;
-        height: auto;
-    }
-
-
+  .footer-dark footer {
+    padding: 10px;
+    height: auto;
+  }
 }
 
 @media (max-width: 450px) {
-    .block-res {
-        display: block;
-        text-align: center;
-    }
+  .block-res {
+    display: block;
+    text-align: center;
+  }
 
-    .footer-dark footer>div {
-        width: 100%;
-        height: 100%;
-    }
+  .footer-dark footer > div {
+    width: 100%;
+    height: 100%;
+  }
 
-    .footer-dark .footer-logo h1 {
-        margin: 0 auto;
-    }
+  .footer-dark .footer-logo h1 {
+    margin: 0 auto;
+  }
 
-    .footer-dark .footer-logo p {
-        font-size: 16px;
-        line-height: 20px;
-        margin: 15px 0;
-    }
+  .footer-dark .footer-logo p {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 15px 0;
+  }
 
-    .footer-dark .footer-link {
-        font-size: 25px;
-        margin: 0 auto;
-    }
+  .footer-dark .footer-link {
+    font-size: 25px;
+    margin: 0 auto;
+  }
 
-    .footer-dark footer p {
-        font-size: 16px;
-        line-height: 20px;
-    }
+  .footer-dark footer p {
+    font-size: 16px;
+    line-height: 20px;
+  }
 
-    .footer-dark .title {
-        gap: 10px;
-        font-size: 25px;
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
-    .footer-dark .malumot>h2,
-    .footer-dark .murojat>h2 {
-        font-size: 20px;
-        line-height: 29px;
-        margin: 10px 0 10px 0;
-    }
+  .footer-dark .title {
+    gap: 10px;
+    font-size: 25px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .footer-dark .malumot > h2,
+  .footer-dark .murojat > h2 {
+    font-size: 20px;
+    line-height: 29px;
+    margin: 10px 0 10px 0;
+  }
 }
