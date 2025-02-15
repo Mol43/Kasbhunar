@@ -16,47 +16,52 @@ function BoshSahifa() {
     {
       icon: <ImFilesEmpty />,
       name: "Kuchli o'qitish metodikasi",
-      tagName: "23 nafar toifali o'qituvchilar eng zamonaviy metodika orqali ta'lim berishadi",
-      img: './3ed65c588dab63b697649ceb5366772f 1.png',
-      heading: 'Avtomobilsozlik',
-      paragraph: 'Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.',
-      prosmotr: 77,
-      coments: 0,
-      date: '11.10.2024',
-      img2: './pred-3 1.png',
-      foydaName: 'Qisqa kurslar',
-      foydaTagName: "Qisqa kurslardan jami 161 mln. so'm foyda olindi"
-
+      tagName:
+        "23 nafar toifali o'qituvchilar eng zamonaviy metodika orqali ta'lim berishadi",
+        img: '/img/avtomobilsozlik.png',
+        heading: 'Avtomobilsozlik',
+        paragraph: 'Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.',
+        prosmotr: 77,
+        coments: 0,
+        date: '11.10.2024',
+      date: "11.10.2024",
+      img2: "./pred-3 1.png",
+      foydaName: "Qisqa kurslar",
+      foydaTagName: "Qisqa kurslardan jami 161 mln. so'm foyda olindi",
     },
     {
       icon: <GoPackage />,
       name: "Sifatli va zavqli amaliyot",
-      tagName: "14 nafar Ishlab chiqarish ta'lim ustalari talabalarga o'rgangan bilimlarini amaliyotda qo'llashlariga yordam beradi",
-      img: './3ed65c588dab63b697649ceb5366772f 1.png',
-      heading: 'Avtomobilsozlik',
-      paragraph: 'Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.',
+      tagName:
+        "14 nafar Ishlab chiqarish ta'lim ustalari talabalarga o'rgangan bilimlarini amaliyotda qo'llashlariga yordam beradi",
+      img: "/img/kasb-tikuvchilik.png",
+      heading: "Tikuvchilik",
+      paragraph:
+        "Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
       prosmotr: 77,
       coments: 0,
-      date: '11.10.2024',
-      img2: './pred-3 1.png',
-      foydaName: 'Qisqa kurslar',
-      foydaTagName: "Qisqa kurslardan jami 161 mln. so'm foyda olindi"
+      date: "11.10.2024",
+      img2: "./pred-3 1.png",
+      foydaName: "Qisqa kurslar",
+      foydaTagName: "Qisqa kurslardan jami 161 mln. so'm foyda olindi",
     },
     {
       icon: <FiImage />,
       name: "Ishga yetaklovchi diplom",
-      tagName: "Kurslar oxirida siz o'z sohangiz bo'yicha sizni ishga olib kiradigan diplom bilan ta'minlanasiz",
-      img: './3ed65c588dab63b697649ceb5366772f 1.png',
-      heading: 'Avtomobilsozlik',
-      paragraph: 'Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.',
+      tagName:
+        "Kurslar oxirida siz o'z sohangiz bo'yicha sizni ishga olib kiradigan diplom bilan ta'minlanasiz",
+      img: "/img/agrobiznes.png",
+      heading: "Agrobiznes, marketing",
+      paragraph:
+        "Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
       prosmotr: 77,
       coments: 0,
-      date: '11.10.2024',
-      img2: './pred-3 1.png',
-      foydaName: 'Qisqa kurslar',
-      foydaTagName: "Qisqa kurslardan jami 161 mln. so'm foyda olindi"
+      date: "11.10.2024",
+      img2: "./pred-3 1.png",
+      foydaName: "Qisqa kurslar",
+      foydaTagName: "Qisqa kurslardan jami 161 mln. so'm foyda olindi",
     },
-  ]
+  ];
 
   return (
     <div className="bosh">
@@ -66,14 +71,13 @@ function BoshSahifa() {
       <div className="boshcards flex justify-between items-center w-[90%] h-[420px] mx-auto">
         {malumot.map((item, i) => {
           return (
-            <div className="boshcard" key={i} >
+            <div className="boshcard" key={i}>
               <div className="roundet">{item.icon}</div>
               <h1>{item.name}</h1>
               <p>{item.tagName}</p>
               <button className="bosh-btn">Batafsil</button>
             </div>
-          )
-
+          );
         })}
       </div>
 
@@ -83,7 +87,10 @@ function BoshSahifa() {
         {malumot.map((item, i) => {
           return (
             <div className="boshcard" key={i}>
-              <div className="img"><img src={item.img} alt="img" /><h1>{item.heading}</h1></div>
+              <div className="img">
+                <img src={item.img} className='rounded-t-xl object-cover' alt="img" />
+                <h1>{item.heading}</h1>
+              </div>
               <div className="text">
                 <h2>{item.heading}</h2>
                 <h4>{item.paragraph}</h4>
@@ -100,7 +107,7 @@ function BoshSahifa() {
                 </div>
               </div>
             </div>
-          )
+          );
         })}
       </div>
       <div className="flex  justify-center mb-10 mt-10">

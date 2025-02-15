@@ -10,7 +10,7 @@ function Header() {
 
     const obj = [
         {
-            img: '/img/3ed65c588dab63b697649ceb5366772f 1.png',
+            img: '/img/avtomobilsozlik.png',
             heading: 'Avtomobilsozlik',
             paragraph: 'Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.',
             prosmotr: 77,
