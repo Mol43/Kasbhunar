@@ -1,6 +1,7 @@
 import { AiOutlineCheck } from 'react-icons/ai'
 import './bizhaqimizda.css'
 import { MdHomeFilled } from 'react-icons/md'
+import { Link } from 'react-router-dom'
 
 
 
@@ -28,9 +29,9 @@ function BizHaqimizda() {
   return (
     <>
         <aside>
-            <div className="aside-link flex items-center gap-2">
+            <Link to='/' className="aside-link flex items-center gap-2">
                 <MdHomeFilled /> <p>{'Bosh sahifa > Biz haqimizda'}</p>
-            </div>
+            </Link>
             <h1>Biz haqimizda </h1>
             <div className="header flex justify-between items-center">
                 <div className="header-text">

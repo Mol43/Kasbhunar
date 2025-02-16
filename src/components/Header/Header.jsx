@@ -2,6 +2,7 @@ import { IoEyeSharp } from 'react-icons/io5'
 import './header.css'
 import { FaComments, } from 'react-icons/fa'
 import { MdHomeFilled, MdOutlineDateRange } from 'react-icons/md'
+import { Link } from 'react-router-dom'
 
 
 
@@ -64,9 +65,9 @@ function Header() {
     return (
         <div className='header-kasb'>
             <header>
-                <div className="header-link flex items-center gap-1">
+                <Link to='/' className="header-link flex items-center gap-1">
                     <MdHomeFilled /> <p>{'Bosh sahifa > Kasblar'}</p>
-                </div>
+                </Link>
                 <h1>Kasblar</h1>
                 <div className="category">
                     {obj.map((item, i) => {

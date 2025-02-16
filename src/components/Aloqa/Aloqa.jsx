@@ -2,6 +2,7 @@ import { MdHomeFilled } from 'react-icons/md'
 import './aloqa.css'
 import { FaMapLocationDot } from 'react-icons/fa6'
 import { RiPhoneFill } from 'react-icons/ri'
+import { Link } from 'react-router-dom'
 
 
 
@@ -10,9 +11,9 @@ function Aloqa() {
     return (
         <>
             <section>
-                <div className="aloqa-link flex justify-between items-center gap-2">
+                <Link to='/' className="aloqa-link flex justify-between items-center gap-2">
                     <MdHomeFilled /> <p>{'Bosh sahifa > Aloqa'}</p>
-                </div>
+                </Link>
                 <h1>Aloqa</h1>
                 <div className="xarita">
                     <iframe
