@@ -18,16 +18,18 @@ function BoshSahifa() {
       name: "Kuchli o'qitish metodikasi",
       tagName:
         "23 nafar toifali o'qituvchilar eng zamonaviy metodika orqali ta'lim berishadi",
-        img: '/img/avtomobilsozlik.png',
-        heading: 'Avtomobilsozlik',
-        paragraph: 'Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.',
-        prosmotr: 77,
-        coments: 0,
-        date: '11.10.2024',
+      img: "/img/avtomobilsozlik.png",
+      heading: "Avtomobilsozlik",
+      paragraph:
+        "Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.",
+      prosmotr: 77,
+      coments: 0,
       date: "11.10.2024",
-      img2: "./pred-3 1.png",
-      foydaName: "Qisqa kurslar",
-      foydaTagName: "Qisqa kurslardan jami 161 mln. so'm foyda olindi",
+      date: "11.10.2024",
+      img2: "./news-img/zulfya.jpg",
+      foydaName: "1-mart Zulfya tavallut ayyomi",
+      foydaTagName:
+        " Shu munosabat bilan Angor tuman 1-sonli Politexnikumida shoiraning 110 yilligiga bag‘ishlab kecha tashkil etildi.",
     },
     {
       icon: <GoPackage />,
@@ -63,6 +65,14 @@ function BoshSahifa() {
     },
   ];
 
+  const news = [
+    {
+      img2: "./news-img/zulfya.jpg",
+      title: '1-mart Zulfya tavallut ayyomi',
+      iinfoemation: 'Shu munosabat bilan Angor tuman 1-sonli Politexnikumida shoiraning 110 yilligiga bag‘ishlab kecha tashkil etildi.'
+    }
+  ]
+
   return (
     <div className="bosh">
       <Navbar />
@@ -88,7 +98,11 @@ function BoshSahifa() {
           return (
             <div className="boshcard" key={i}>
               <div className="img">
-                <img src={item.img} className='rounded-t-xl object-cover' alt="img" />
+                <img
+                  src={item.img}
+                  className="rounded-t-xl object-cover"
+                  alt="img"
+                />
                 <h1>{item.heading}</h1>
               </div>
               <div className="text">
@@ -119,21 +133,23 @@ function BoshSahifa() {
         </Link>
       </div>
 
-      {/* <h1 className="sarlavha">{"Byudjetdan tashqari topilgan mablag'lar"}</h1>
+      <h1 className="sarlavha">{"Yangiliklar"}</h1>
 
       <div className="boshcards flex justify-between items-center w-[90%] h-[420px] mx-auto">
-        {malumot.map((item, i) => {
+        {news.map((item, i) => {
           return (
             <div className="boshcard" key={i}>
-              <div className="img-foyda"><img src={item.img2} alt="img" /></div>
+              <div className="img-foyda">
+                <img src={item.img2} alt="img" className="rounded-t-xl" />
+              </div>
               <div className="text-foyda">
-                <h1>{item.foydaName}</h1>
-                <p>{item.foydaTagName}</p>
+                <h1>{item.title}</h1>
+                <p>{item.iinfoemation}</p>
               </div>
             </div>
-          )
+          );
         })}
-      </div> */}
+      </div>
 
       <Footer />
     </div>
