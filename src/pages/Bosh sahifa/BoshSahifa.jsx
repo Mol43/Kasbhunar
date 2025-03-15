@@ -68,10 +68,17 @@ function BoshSahifa() {
   const news = [
     {
       img2: "./news-img/zulfya.jpg",
-      title: '1-mart Zulfya tavallut ayyomi',
-      iinfoemation: 'Shu munosabat bilan Angor tuman 1-sonli Politexnikumida shoiraning 110 yilligiga bag‘ishlab kecha tashkil etildi.'
-    }
-  ]
+      title: "1-mart Zulfya tavallut ayyomi",
+      iinfoemation:
+        "Shu munosabat bilan Angor tuman 1-sonli Politexnikumida shoiraning 110 yilligiga bag'ishlab kecha tashkil etildi.",
+    },
+    {
+      img2: "/news-img/tadbit.jpg",
+      title: "Korrupsiyaga qarshi kurashish",
+      iinfoemation:
+        "2024-yil 26-yanvarda korrupsiyaga qarshi kurashish bo‘yicha yig‘ilishda tasdiqlangan ‘Yo‘l xaritasi’ va GRACE dasturi doirasida tashkil etilgan tadbir lavhalari.",
+    },
+  ];
 
   return (
     <div className="bosh">
@@ -135,7 +142,7 @@ function BoshSahifa() {
 
       <h1 className="sarlavha">{"Yangiliklar"}</h1>
 
-      <div className="boshcards flex justify-between items-center w-[90%] h-[420px] mx-auto">
+      <div className="boshcards flex gap-12 items-center w-[90%] h-[450px] mx-auto">
         {news.map((item, i) => {
           return (
             <div className="boshcard" key={i}>

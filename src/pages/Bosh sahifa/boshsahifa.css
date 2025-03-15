@@ -31,13 +31,14 @@
 
 .bosh .boshcard {
     width: 30%;
-    height: 99%;
+    height: 100%;
     box-shadow: 1px 1px 6.8px 0px #00000040;
     background: transparent;
     border-radius: 22px;
     text-align: center;
     box-sizing: border-box;
     padding: 0 20px;
+    margin-bottom: 20px;
     position: relative;
     transition: all .2s;
 }
